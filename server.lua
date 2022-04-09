@@ -4,4 +4,12 @@ function sayHello()
 	print('Hello World')
 end
 
+function greetGuy()
+	return (
+		'Hi there!'
+	)
+end 
+
 sayHello()
+
+greetGuy() -- some greeting here !
